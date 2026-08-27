@@ -1,17 +1,17 @@
 :root {
-  --ink: #14221c;
-  --forest: #123327;
-  --moss: #2c6a4e;
-  --lime: #d6ff4f;
-  --court: #3aa77f;
-  --sky: #bfe8ff;
-  --clay: #ef775f;
-  --paper: #fbf8ef;
+  --ink: #14261c;
+  --forest: #1a5032;
+  --moss: #2a7a50;
+  --lime: #ede4cc;
+  --court: #358c5e;
+  --sky: #dce8d8;
+  --clay: #c4a56a;
+  --paper: #f5f0e4;
   --white: #ffffff;
-  --muted: #657069;
-  --line: rgba(20, 34, 28, 0.12);
-  --line-light: rgba(255, 255, 255, 0.18);
-  --shadow: 0 18px 54px rgba(18, 51, 39, 0.16);
+  --muted: #5e6b5a;
+  --line: rgba(26, 80, 50, 0.12);
+  --line-light: rgba(237, 228, 204, 0.22);
+  --shadow: 0 18px 54px rgba(26, 80, 50, 0.18);
   --container: min(1120px, calc(100% - 40px));
   --container-narrow: min(780px, calc(100% - 40px));
   --font-sans: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -159,8 +159,8 @@ p {
 
 .site-nav.scrolled,
 .site-nav.menu-active {
-  background: rgba(18, 51, 39, 0.92);
-  border-color: rgba(255, 255, 255, 0.14);
+  background: rgba(26, 80, 50, 0.94);
+  border-color: rgba(237, 228, 204, 0.18);
   box-shadow: 0 16px 40px rgba(0, 0, 0, 0.16);
   backdrop-filter: blur(18px);
 }
@@ -220,7 +220,7 @@ p {
 .nav-links .nav-action:hover,
 .nav-links .nav-action.active {
   color: var(--forest);
-  background: #e5ff83;
+  background: #f5edd8;
 }
 
 .nav-toggle {
@@ -274,7 +274,7 @@ p {
   align-items: center;
   color: var(--white);
   background:
-    linear-gradient(90deg, rgba(18, 51, 39, 0.97), rgba(18, 51, 39, 0.84) 52%, rgba(18, 51, 39, 0.52)),
+    linear-gradient(90deg, rgba(26, 80, 50, 0.97), rgba(26, 80, 50, 0.84) 52%, rgba(26, 80, 50, 0.52)),
     var(--forest);
   isolation: isolate;
 }
@@ -284,7 +284,7 @@ p {
   position: absolute;
   inset: auto 0 0;
   height: 84px;
-  background: linear-gradient(180deg, rgba(18, 51, 39, 0), var(--paper));
+  background: linear-gradient(180deg, rgba(26, 80, 50, 0), var(--paper));
   z-index: 1;
 }
 
@@ -296,8 +296,8 @@ p {
     linear-gradient(90deg, transparent 13%, rgba(255, 255, 255, 0.28) 13% 13.35%, transparent 13.35% 86.65%, rgba(255, 255, 255, 0.28) 86.65% 87%, transparent 87%),
     linear-gradient(0deg, transparent 18%, rgba(255, 255, 255, 0.26) 18% 18.35%, transparent 18.35% 81.65%, rgba(255, 255, 255, 0.26) 81.65% 82%, transparent 82%),
     linear-gradient(90deg, transparent 49.85%, rgba(255, 255, 255, 0.24) 49.85% 50.15%, transparent 50.15%),
-    linear-gradient(0deg, transparent 49.85%, rgba(214, 255, 79, 0.28) 49.85% 50.15%, transparent 50.15%),
-    linear-gradient(135deg, var(--court), #1d7056);
+    linear-gradient(0deg, transparent 49.85%, rgba(237, 228, 204, 0.28) 49.85% 50.15%, transparent 50.15%),
+    linear-gradient(135deg, var(--court), #28704a);
   transform: scale(1.08) rotate(-3deg);
   transform-origin: 70% 50%;
   z-index: -2;
@@ -385,11 +385,11 @@ p {
 .button-primary {
   color: var(--forest);
   background: var(--lime);
-  box-shadow: 0 12px 34px rgba(214, 255, 79, 0.2);
+  box-shadow: 0 12px 34px rgba(237, 228, 204, 0.25);
 }
 
 .button-primary:hover {
-  background: #e8ff8f;
+  background: #f5edd8;
   transform: translateY(-2px);
 }
 
@@ -550,7 +550,7 @@ p {
 .included-card:hover {
   transform: translateY(-4px);
   background: rgba(255, 255, 255, 0.1);
-  border-color: rgba(214, 255, 79, 0.36);
+  border-color: rgba(237, 228, 204, 0.4);
 }
 
 .included-card h3 {
@@ -609,7 +609,7 @@ p {
 }
 
 .camera-icon {
-  background: #ffe3a3;
+  background: #e8dcc4;
 }
 
 .camera-icon::before {
@@ -628,7 +628,7 @@ p {
 }
 
 .jersey-icon {
-  background: #f6f0ff;
+  background: #e4edd8;
 }
 
 .jersey-icon::before {
@@ -638,7 +638,7 @@ p {
 }
 
 .paddle-icon {
-  background: #baf5d2;
+  background: #c5ddbc;
 }
 
 .paddle-icon::before {
@@ -699,7 +699,7 @@ p {
   overflow: hidden;
   color: var(--white);
   background:
-    linear-gradient(90deg, rgba(20, 34, 28, 0.94), rgba(20, 34, 28, 0.7)),
+    linear-gradient(90deg, rgba(26, 80, 50, 0.94), rgba(26, 80, 50, 0.7)),
     var(--moss);
 }
 
@@ -813,7 +813,7 @@ p {
     padding: 10px;
     border: 1px solid rgba(255, 255, 255, 0.14);
     border-radius: 8px;
-    background: rgba(18, 51, 39, 0.96);
+    background: rgba(26, 80, 50, 0.96);
     box-shadow: 0 22px 60px rgba(0, 0, 0, 0.28);
     opacity: 0;
     pointer-events: none;
